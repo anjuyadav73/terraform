@@ -34,7 +34,7 @@ variable "instance-count" {
 variable "iam-instance-profile" {
   description = "The name of the instance profile to apply to the instance. The DefaultSSMInstanceProfile is applied if nothing else is chosen."
   type        = string
-  default     = "DefaultSSMInstanceProfile"
+  default     = "admin"
 }
 
 variable "cf-stack-output-name" {
